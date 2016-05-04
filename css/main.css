@@ -280,3 +280,12 @@ header {
   }
 }
 
+.headhesive{
+  position: fixed;
+  width: 100%;
+  transform: translateY(-100%);
+  transition: 0.5s;
+}
+.headhesive--stick{
+  transform: translateY(0);
+}
