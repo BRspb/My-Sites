@@ -1,4 +1,4 @@
 var options = {
-  offset: 650}
+  offset: 620}
 
 var header = new Headhesive('.top-mnu', options);

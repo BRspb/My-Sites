@@ -6,18 +6,7 @@
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-header .flexslider {
-    height: 18.4em;
-    margin: 7.4em auto;
-    width: 12.1em;
-}
 
-.flexslider .slides img {
-    height: 296px;
-}
-.flex-control-nav {
-    bottom: 10px;
-}
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
@@ -35,6 +24,9 @@ header .flexslider {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+	body{
+		min-width: 293px;;
+	}
 
 }
 
