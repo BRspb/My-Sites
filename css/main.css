@@ -23,35 +23,33 @@ body {
 /*header begin*/
 
 header {
-	background-image: url(../img/bg_header_L.jpg);
+	background-image: url(../img/bg_header_L_red.jpg);
   background-repeat: no-repeat;
-  background-position: 50% 10px;
+  background-position: center center;
   background-size: cover;
   min-height: 620px;
 }
 
-.top_line {
-  margin: 0 3px 0 -1px;
-}
-
 .top-mnu{
   min-height: 40px;
+  background-color: #6CB100;
 }
 
 .top-mnu li{
-  background-color: #6CB100;
   display: inline-block;
   height: 35px;
-  width: 25%;
-  border-right: 1px solid #000;
-  margin-right: -4px;
+  width: 24.5%;
+  border-left: 1px solid #000;
   text-align: center;
+  font-weight:bold;
   padding-top: 10px;
-  font-size: 18px;
+  font-size: 1.1em;
+  margin-right: -4px;
 }
 
 .top-mnu li:last-child{
   border-right: none;
+  margin-right: -5px;
 }
 
 .top-mnu a{
@@ -83,13 +81,13 @@ header {
   border: 2px solid #7fbc00;
   border-radius: 4px;
   height: 23.8em;
-  margin: 5.3em auto;
+  margin: 4.7em auto 0;
   position: relative;
   width: 15.8em;
   zoom: 1;
+  border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  border-radius: 4px;
   -webkit-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
   -o-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
@@ -124,7 +122,7 @@ header {
   display: block;
   width: 30px;
   height: 30px;
-  margin: -20px 0 0;
+  margin: 144px 0 0;
   position: absolute;
   top: 50%;
   z-index: 10;
@@ -295,7 +293,15 @@ header {
   }
 }
 /*slider end*/
-
+.buttons_hed {
+  text-align: center;
+  margin-top: 30px;
+  display: none;
+}
+.buttons_hed img{
+  width: 40px;
+  height: 40px;
+} 
 /*header end*/
 
 footer{

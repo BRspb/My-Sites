@@ -2,7 +2,7 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-    
+
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -15,21 +15,34 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-.top-mnu li {
-    font-size: 13px;
-    padding-top: 14px;
-    height: 30px;
+	.top-mnu li {
+		font-weight: normal;
+	}
 }
+@media only screen and (max-width : 440px) {
+	.top-mnu li {
+		font-size: 0.8em;
+	}
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 	body{
-		min-width: 293px;;
+		min-width: 293px;
+	}
+	.top-mnu{
+		background-color: transparent;
+	}
+	.top-mnu li{
+		display: none;
 	}
 
+	.buttons_hed{
+		display: block;
+	}
+	
+	
 }
-
 
 /*==========  Mobile First Method  ==========*/
 
@@ -53,7 +66,7 @@
 
 }
 
- /* Large Devices, Wide Screens */
+/* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
 }
